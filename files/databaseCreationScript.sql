@@ -40,7 +40,7 @@ CREATE TABLE housing
 -- | Field              | Type     | Null | Key | Default | Extra          |
 -- +--------------------+----------+------+-----+---------+----------------+
 -- | id                 | int(11)  | NO   | PRI | NULL    | auto_increment |
--- | guid               | char(32) | NO   |     | NULL    |                |
+-- | guid               | char(36) | NO   |     | NULL    |                |
 -- | zip_code           | int(11)  | NO   |     | NULL    |                |
 -- | city               | char(32) | NO   |     | NULL    |                |
 -- | state              | char(2)  | NO   |     | NULL    |                |
