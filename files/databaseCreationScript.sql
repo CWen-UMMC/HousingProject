@@ -19,7 +19,7 @@ DROP TABLE IF EXISTS `housing`;
 CREATE TABLE housing
                (
                 `id`                 int not null auto_increment primary key,
-                `guid`               char(32) not null,
+                `guid`               char(36) not null,
                 `zip_code`           int not null,
                 `city`               char(32) not null,
                 `state`              char(2) not null,
