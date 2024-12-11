@@ -11,7 +11,7 @@
 --
 
 -- NOTE: Change this to YOUR database
-USE cbcradio_bds754_99;
+cbcradio_bds754_8;
 
 -- This will delete the table if it exists.
 DROP TABLE IF EXISTS `housing`;
